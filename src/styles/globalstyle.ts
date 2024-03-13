@@ -2,7 +2,8 @@ import {StyleSheet} from "react-native"
 
 export const colors = {
     preto: "#000",
-    branco: "#ffff"
+    branco: "#ffff",
+    cinza: "#808080",
 
 }
 
