@@ -6,10 +6,10 @@ export const styles = StyleSheet.create({
 
         width: 30,
         height:30,
-        backgroundColor: colors.branco,
+        backgroundColor: colors.rosa,
         borderRadius: 15,
         borderWidth: 0,
-        borderBlockColor: colors.branco,
+        borderBlockColor: colors.rosa,
         margin: 10,
         
       

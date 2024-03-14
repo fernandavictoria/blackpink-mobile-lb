@@ -11,7 +11,7 @@ export function Slide1({setPageI}: Ipagina) {
         <ImageBackground source={slide} style={styleContainer.container}>
             <View style={styles.areatxt}>
             <Text style = {styles.text}>
-            Lalisa Manoban, a rapper principal tailandesa, é famosa por sua energia vibrante no palco, impressionante talento na dança, sendo também uma ícone fashion e referência na moda.
+            Lalisa Manoban, a rapper principal tailandesa, é famosa por sua energia vibrante no palco, impressionante talento na dança, sendo também uma ícone fashion e referência na moda, no BLACKPINK sua posição principal é lead dancer.
             </Text>
             </View>
             <View  style = {styles.botao}>
