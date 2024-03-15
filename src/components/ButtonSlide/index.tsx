@@ -1,11 +1,13 @@
-import { TouchableHighlightProps, TouchableOpacity } from "react-native";
+import {TouchableOpacityProps, TouchableOpacity } from "react-native";
 import { styles } from "./style";
 
-interface Ibuttom extends TouchableHighlightProps {
-    onPrsseI: () => void
+interface Ibuttom extends TouchableOpacityProps {
+    onPressI: () => void
+    cor: boolean
 }
-export function ButtonPage({ onPrsseI}:Ibuttom) {
+export function ButtonPage({cor, onPressI}:Ibuttom) {
     return(
-        <TouchableOpacity style={styles.ball} onPress={onPrsseI} />
+        <TouchableOpacity style={cor? styles.dif: styles.ball} onPress={onPressI} />
     )
 }
+
