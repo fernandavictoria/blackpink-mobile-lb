@@ -15,10 +15,10 @@ export function Slide1({setPageI, pageI}: Ipagina) {
             </Text>
             </View>
             <View  style = {styles.botao}>
-            <ButtonPage cor={pageI==1} onPrsseI={() => setPageI(1)}/>
-            <ButtonPage cor={pageI==2} onPrsseI={() => setPageI(2)}/>
-            <ButtonPage cor={pageI==3} onPrsseI={() => setPageI(3)}/>
-            <ButtonPage cor={pageI==4} onPrsseI={() => setPageI(4)}/>
+            <ButtonPage onPressI={() => setPageI(1)} cor={true}/>
+            <ButtonPage onPressI={() => setPageI(2)} cor={false}/>
+            <ButtonPage onPressI={() => setPageI(3)} cor={false}/>
+            <ButtonPage onPressI={() => setPageI(4)} cor={false}/>
             </View>
         </ImageBackground>
 
